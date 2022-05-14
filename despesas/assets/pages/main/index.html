@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../../style.css" />
+    <title>Expense Control</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header-logo">
+          <a href="../main/index.html"
+            ><img src="../../img/budget.png" alt="Logo expense control"
+          /></a>
+        </div>
+        <div class="header-actions">
+          <a href="../main/index.html">Expenses</a>
+          <a href="../about/index.html">About</a>
+          <a href="../contact/index.html">Contact</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main">
+        <div class="main-title">
+          <h1>Expense Control</h1>
+        </div>
+        <div class="main-content">
+          <div class="main-content-title">
+            <h2>Current balance</h2>
+            <span>
+              R$
+              <span id="total-balance">1000.00</span>
+            </span>
+          </div>
+          <div class="main-content-description">
+            <div class="main-content-revenue">
+              <h2>Revenue</h2>
+              <span
+                >R$
+                <span id="total-revenue">1000.00</span>
+              </span>
+            </div>
+            <div class="main-content-expenses">
+              <h2>Expenses</h2>
+              <span
+                >R$
+                <span id="total-expenses">0.00</span>
+              </span>
+            </div>
+          </div>
+          <div class="main-content-form">
+            <h2>Add Transaction</h2>
+            <form id="form-expenses">
+              <div class="input-expenses">
+                <label for="input-description"> Name </label>
+                <input
+                  type="text"
+                  name="revenue"
+                  id="input-description"
+                  placeholder="Descrição"
+                />
+              </div>
+              <div class="input-value">
+                <label for="input-value">
+                  Value
+                  <p>(For expense amounts add " - " in front)</p>
+                </label>
+                <input
+                  type="number"
+                  name="expense"
+                  id="input-value"
+                  placeholder="Valor"
+                />
+              </div>
+              <div class="input-button">
+                <input type="submit" value="Adicionar" id="add" />
+              </div>
+            </form>
+          </div>
+          <div class="main-content-table">
+            <h2>Transactions</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Type</th>
+                  <th>Description</th>
+                  <th>Value</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Revenue</td>
+                  <td>Salary of the month</td>
+                  <td>1000.00</td>
+                  <td>
+                    <button>Edit</button>
+                    <button>Delete</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <span
+          >&copy; Wellington 2022 | Questions?
+          <a href="mailto:wellington752@gmail.com" target="_blank"
+            >Contact-me</a
+          ></span
+        >
+        <div class="social-media">
+          <a
+            href="https://www.linkedin.com/in/jos%C3%A9-wellington-ferreira-da-silva-j%C3%BAnior-a783781ab/"
+            target="_blank"
+            ><img src="../../img/linkedin.png" alt="imagem linkedin"
+          /></a>
+          <a href="https://github.com/WellingtonJRDEV" target="_blank"
+            ><img src="../../img/github.png" alt="imagem github"
+          /></a>
+          <a href="https://www.instagram.com/wellingtonjrdev/" target="_blank"
+            ><img src="../../img/instagram.png" alt="imagem instagram"
+          /></a>
+          <a
+            href="https://www.facebook.com/wellington.junior.1213/"
+            target="_blank"
+            ><img src="../../img/facebook.png" alt="imagem facebook"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

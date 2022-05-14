@@ -6,8 +6,8 @@
   width: 100%;
   height: 5rem;
   padding: 10px;
-  background-color: var(--first-blue);
-  box-shadow: 3px 3px 3px var(--third-ligth-gray);
+  background-color: var(--first-green);
+  box-shadow: 0px 3px 5px var(--third-ligth-gray);
 }
 
 .header .header-logo {
@@ -233,7 +233,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--first-blue);
+  background-color: var(--first-green);
   box-shadow: 3px 0 3px 3px var(--third-ligth-gray);
   color: var(--first-ligth-gray);
 }

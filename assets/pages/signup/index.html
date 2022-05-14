@@ -14,22 +14,48 @@
     />
   </head>
   <body>
-    <header>
-      <div class="header">
-        <div class="header-logo">
-          <a href="../main/index.html"
-            ><img src="../../img/budget.png" alt="Logo expense control"
-          /></a>
-        </div>
-        <div class="header-actions">
-          <a href="../main/index.html">Expenses</a>
-          <a href="../about/index.html">About</a>
-          <a href="../contact/index.html">Contact</a>
-        </div>
-      </div>
-    </header>
     <main>
-      <div class="main"></div>
+      <div class="login-content">
+        <section class="login-image">
+          <div class="image-content">
+            <img
+              src="../../img/accounting.png"
+              alt="imagem controle de despesas"
+            />
+          </div>
+        </section>
+        <section class="form-login">
+          <form action="#" id="login-client">
+            <h1>Login</h1>
+            <div class="login-client-input">
+              <label for="username">Username</label>
+              <input type="text" id="username" placeholder="Insert your name" />
+            </div>
+            <div class="login-client-input">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Email adress" />
+            </div>
+            <div class="login-client-input">
+              <label for="pass">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="pass"
+                placeholder="Your password"
+              />
+            </div>
+            <div class="button">
+              <button type="submit" class="btn btn-primary">Signup</button>
+            </div>
+          </form>
+          <div class="form-login-footer">
+            <span>Or</span>
+            <span
+              >Already registered? <a href="../../../index.html">Login</a></span
+            >
+          </div>
+        </section>
+      </div>
     </main>
     <footer>
       <div class="footer">
@@ -64,5 +90,6 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>

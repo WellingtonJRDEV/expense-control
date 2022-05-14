@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../../../style.css" />
     <title>Expense Control</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
@@ -23,7 +29,41 @@
       </div>
     </header>
     <main>
-      <div class="main"></div>
+      <div class="container-contact container">
+        <section class="contact-title">
+          <h1>Contact us</h1>
+          <p>
+            Tell me what you think of the project or any suggestions to improve
+            it. Send me an email with your feedback.
+          </p>
+        </section>
+        <section class="contact-form">
+          <form action="mailto:jwellington752@gmail.com" id="contact-form">
+            <div class="mb-3">
+              <label for="input-name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="input-name" />
+            </div>
+            <div class="mb-3">
+              <label for="input-email" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="input-email"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="text-area" class="form-label"
+                >What can i help you with?</label
+              >
+              <textarea class="form-control" id="text-area" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="send-message">
+              Submit
+            </button>
+          </form>
+        </section>
+      </div>
     </main>
     <footer>
       <div class="footer">
@@ -53,5 +93,11 @@
         </div>
       </div>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../../../assets/js/contact.js"></script>
   </body>
 </html>

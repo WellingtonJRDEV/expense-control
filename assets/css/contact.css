@@ -1,0 +1,23 @@
+.container-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.contact-title {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-bottom: 1px solid var(--third-ligth-gray);
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
